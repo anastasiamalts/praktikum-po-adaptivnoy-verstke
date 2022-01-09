@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+max-width: 1192px;
+/* background-color: lightgrey; */
+margin: 0 auto;
+margin-top: 91px;
+}
+
+.text-block {
+    max-width: 662px;
+}
+.text-normal {
+    /* max-width: 662px; */
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 150%;
+  
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 94px;
+}
+.about-course-image {
+    max-height: 364px;
+
+}
+.headline {
+width: 365px;
+margin-bottom:62px;
+font-family: 'Roboto Slab', serif;
+font-weight: bold;
+font-size: 55px;
+line-height: 101.38%;
+ }
+ 
+ /* нижняя часть */
+.about {
+display: flex;
+justify-content: space-between;
+/* max-width: 1002px; */
+
+}
+.duration-wrap {
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.duration {
+display: flex;
+justify-content: space-between;
+/* max-width: 640px; */
+}
+
+.duration-items {
+margin-right: 95px;
+/* min-width: 245px; */
+}   
+
+.operator {
+    max-width: 232px;
+}
+.duration-header {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 25px;
+line-height: 130%;
+max-width: 150px;
+}
+.duration-text {
+font-size: 18px;
+line-height: 130%;
+max-width: 150px;
+}
+
+/* движ планшет */
+
+@media (max-width:834px) {
+    .wrapper { max-width: 675px;
+        /* margin: 56px 0 auto; */
+    }
+    .flex {
+       
+        margin-bottom: 30px;
+    }
+    .headline {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .about-course-image {
+       max-height: 182.44px;
+    }
+    .text-block {
+        max-width: 383.41px;
+    }
+    .text-normal {
+        font-size: 14px;
+    }
+    .operator {
+        display: none;
+    }
+    .durartion {
+        max-width: 354px;
+        margin: 0px; 
+    }
+    .duration-items {
+    margin-right:55px;
+    /* min-width: 142px; */
+    }
+    .duration-header {
+    max-width: 86.88px;
+    font-size: 15px;
+    margin-bottom: 12px;
+    }
+    .duration-text {
+    font-size: 11px;
+    max-width: 105px;
+    }
+
+} 
+
+/* движ телефон */
+@media (max-width:375px) {
+.wrapper {
+    max-width: 308.47px;
+    margin-top: 56px;
+}
+.flex {
+    flex-direction:column;
+}
+.about-course-image {
+    max-width: 170.55px;
+    margin: 0 auto;
+}
+
+.text-normal {
+    font-size: 12px;
+}
+.duration {
+    flex-wrap: wrap;
+}
+.duration-items {
+    margin-right: 33.33px;
+    max-width: 87px;
+}
+.duration-header {
+    font-size: 12px;
+}
+.duration-text {
+    font-size: 10px;
+}
+}
